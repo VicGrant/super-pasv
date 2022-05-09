@@ -1,0 +1,10 @@
+{
+  "name": "super-pasv",
+  "version": "1.0.0",
+  "scripts": {
+
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "API tests for Paysis project."
+}
