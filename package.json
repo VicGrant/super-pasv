@@ -1,7 +1,9 @@
 {
   "name": "super-pasv",
   "version": "1.0.0",
-  "scripts": {},
+  "scripts": {
+    "test": "npx mocha --config .mocharc.js"
+  },
   "author": "V.G.",
   "license": "ISC",
   "description": "API tests for Paysis project.",
@@ -10,6 +12,8 @@
     "@babel/core": "^7.17.10",
     "@babel/plugin-transform-runtime": "^7.17.10",
     "@babel/preset-env": "^7.17.10",
-    "@babel/register": "^7.17.7"
+    "@babel/register": "^7.17.7",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
   }
 }
